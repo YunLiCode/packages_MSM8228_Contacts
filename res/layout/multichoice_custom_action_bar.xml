@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:divider="?android:dividerVertical" android:showDividers="middle" android:dividerPadding="12.0dip">
+        <ImageButton android:id="@id/done_menu_item" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="?android:homeAsUpIndicator" style="?android:attr/actionButtonStyle" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/action_bar_button_text_color" android:layout_gravity="center_vertical" android:id="@id/select_items" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="@string/menu_done" android:layout_toRightOf="@id/done_menu_item" android:layout_centerVertical="true" />
+        <ImageButton android:id="@id/search_menu_item" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="6.0dip" android:src="@drawable/ic_ab_search_holo_dark" android:layout_alignParentRight="true" style="?android:attr/actionButtonStyle" />
+        <ImageButton android:id="@id/group_menu_item" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_groups_holo_dark" android:layout_toLeftOf="@id/search_menu_item" style="?android:attr/actionButtonStyle" />
+    </RelativeLayout>
+    <SearchView android:id="@id/search_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="textFilter" android:iconifiedByDefault="false" />
+</FrameLayout>

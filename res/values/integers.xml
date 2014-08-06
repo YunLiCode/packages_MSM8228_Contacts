@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_export_file_min_index">1</integer>
+    <integer name="config_export_file_max_index">99999</integer>
+    <integer name="structured_name_length">60</integer>
+    <integer name="dispersed_structured_name_length">10</integer>
+    <integer name="phonetic_name_length">120</integer>
+    <integer name="dispersed_phonetic_name_length">40</integer>
+    <integer name="phone_number_length">32</integer>
+    <integer name="email_address_length">64</integer>
+    <integer name="nick_name_length">20</integer>
+    <integer name="structured_postal_length">200</integer>
+    <integer name="dispersed_structured_postal_length">40</integer>
+    <integer name="im_length">30</integer>
+    <integer name="organization_length">40</integer>
+    <integer name="note_length">200</integer>
+    <integer name="website_length">120</integer>
+    <integer name="sip_address_length">40</integer>
+    <integer name="event_length">200</integer>
+    <integer name="relation_length">60</integer>
+    <integer name="group_name_length">50</integer>
+    <integer name="contact_tile_column_count_in_favorites">2</integer>
+    <integer name="snippet_length_before_tokenize">30</integer>
+    <integer name="config_scan_file_depth">12</integer>
+    <integer name="sdcard_storage_limit">2</integer>
+    <integer name="phone_storage_limit">5</integer>
+    <integer name="config_max_join_count">5</integer>
+    <integer name="contact_tile_column_count">2</integer>
+    <integer name="updates_tab_snippet_max_lines">3</integer>
+</resources>

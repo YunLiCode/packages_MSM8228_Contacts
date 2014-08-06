@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_ab_search_holo_dark" android:id="@id/menu_search" android:title="@string/menu_search" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_add_contact_holo_dark" android:id="@id/menu_add_contact" android:title="@string/menu_new_contact_action_bar" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_add_group_holo_dark" android:id="@id/menu_add_group" android:title="@string/menu_new_group_action_bar" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_delete_contacts" android:title="@string/menu_option_deleteContacts" />
+    <item android:id="@id/menu_delete_groups" android:title="@string/menu_option_deleteGroups" />
+    <item android:id="@id/menu_contacts_filter" android:title="@string/menu_contacts_filter" />
+    <item android:id="@id/menu_import_export" android:title="@string/menu_import_export" />
+    <item android:id="@id/menu_share_visible_contacts" android:title="@string/share_visible_contacts" />
+    <item android:id="@id/menu_clear_frequents" android:title="@string/menu_clear_frequents" />
+    <item android:id="@id/menu_join_same_name" android:title="@string/join_same_name" />
+    <item android:id="@id/menu_delete_duplicates" android:title="@string/delete_duplicates" />
+    <item android:id="@id/menu_accounts" android:title="@string/menu_accounts" />
+    <item android:id="@id/menu_settings" android:title="@string/menu_settings" />
+    <item android:id="@id/menu_help" android:visible="false" android:title="@string/menu_help" />
+    <item android:id="@id/export_database" android:visible="false" android:title="@string/menu_export_database" android:showAsAction="never" />
+</menu>

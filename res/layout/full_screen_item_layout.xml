@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:enabled="false" android:textAppearance="@android:style/TextAppearance.Small" android:textStyle="bold" android:textColor="@color/people_app_theme_color" android:gravity="left|center" android:id="@id/section_header" android:padding="4.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/under_line" android:background="@color/people_app_theme_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/text_container" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <Button android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/FullScreenNameStyle" />
+        <Button android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/FullScreenNameStyle" />
+        <Button android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/FullScreenNameStyle" />
+    </LinearLayout>
+</LinearLayout>

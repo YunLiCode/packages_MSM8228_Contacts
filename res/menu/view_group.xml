@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_compose_holo_dark" android:id="@id/menu_edit_group" android:title="@string/menu_editGroup" android:alphabeticShortcut="e" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_delete_group" android:title="@string/menu_deleteGroup" />
+    <item android:id="@id/menu_move_members" android:title="@string/group_move_members" />
+    <item android:id="@id/menu_add_members" android:title="@string/group_add_members" />
+    <item android:id="@id/menu_delete_members" android:title="@string/group_delete_members" />
+    <item android:id="@id/menu_group_sms" android:title="@string/group_send_sms" />
+    <item android:id="@id/menu_group_email" android:title="@string/group_send_email" />
+</menu>

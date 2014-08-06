@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.contacts.widget.AutoScrollListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:paddingLeft="16.0dip" android:paddingRight="32.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fastScrollEnabled="true" android:fastScrollAlwaysVisible="true" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Holo.Large" android:textSize="20.0sp" android:textColor="@android:color/tertiary_text_light" android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/listTotalAllContactsZero" android:lineSpacingMultiplier="0.92" />
+</FrameLayout>

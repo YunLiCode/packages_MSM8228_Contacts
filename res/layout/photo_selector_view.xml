@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" 
+android:background="@drawable/contacts_photo_bg"
+xmlns:roundImageView="http://schemas.android.com/apk/res/com.android.contacts"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.contacts.fullscreen.RoundImageView 
+    android:id="@id/photo" 
+    android:layout_width="110dp" 
+    android:layout_height="110dp" 
+    android:layout_centerInParent="true"
+    roundImageView:border_thickness="2.0dip" 
+    roundImageView:border_inside_color="#fff7f2e9" 
+    roundImageView:border_outside_color="#ffd5d1c8" />
+    <ImageView
+    	android:layout_width="114dp"
+    	android:layout_height="114dp"
+    	android:layout_centerInParent="true"
+    	android:src="@drawable/border"
+    	/>
+    <View android:id="@id/photo_touch_intercept_overlay" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/contact_detail_picture_description" />
+</RelativeLayout>

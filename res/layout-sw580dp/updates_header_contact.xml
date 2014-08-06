@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ex="http://schemas.android.com/apk/res-auto">
+    <view android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" ex:direction="widthToHeight" ex:ratio="0.6667" class="com.android.contacts.common.widget.ProportionalLayout">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </view>
+    <TextView android:textColor="@color/people_app_theme_color" android:ellipsize="end" android:background="@drawable/list_section_divider_holo_custom" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_height="32.0dip" android:text="@string/recent" android:singleLine="true" android:textAllCaps="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" style="?android:attr/listSeparatorTextViewStyle" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_loading_indicator" android:showAsAction="ifRoom" android:actionViewClass="android.widget.ProgressBar" />
+    <item android:icon="@drawable/ic_add_contact_holo_dark" android:id="@id/menu_add_contact" android:title="@string/menu_new_contact_action_bar" />
+    <item android:id="@id/menu_delete" android:title="@string/delete_contacts_title" />
+    <item android:id="@id/menu_import_export" android:title="@string/menu_import_export" />
+    <item android:id="@id/menu_share_visible_contacts" android:title="@string/share_visible_contacts" />
+</menu>
